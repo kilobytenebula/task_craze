@@ -35,7 +35,7 @@
             android:id="@+id/action_editTaskFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
         <argument
-            android:name="note"
+            android:name="task"
             app:argType="com.warclips.noteapproom.model.Task"
             app:nullable="true" />
     </fragment>

@@ -23,7 +23,7 @@ class TaskViewModel(
 
     fun updateTask(task: Task) =
         viewModelScope.launch {
-            taskRepository.deleteTask(task)
+            taskRepository.updateTask(task)
         }
 
     fun getAllTasks() = taskRepository.getAllTasks()
