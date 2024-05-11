@@ -18,7 +18,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="48dp"
             android:fontFamily="@font/poppins"
-            android:text="Add Task"
+            android:text="@string/add_task_heading"
             android:textStyle="bold"
             android:textColor="@color/secondary"
             android:textSize="24sp" />
@@ -31,7 +31,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/app_border"
             android:fontFamily="@font/poppins"
-            android:hint="I want to do..."
+            android:hint="@string/edit_text_title"
             android:maxLines="1"
             android:padding="12dp"
             android:textSize="20sp" />
@@ -45,7 +45,7 @@
             android:background="@drawable/app_border"
             android:fontFamily="@font/poppins"
             android:gravity="top"
-            android:hint="...something fabulous!"
+            android:hint="@string/edit_text_desc"
             android:padding="12dp"
             android:textSize="18sp" />
 

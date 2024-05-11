@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Task Craze</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit_task_heading">Edit Task</string>
+    <string name="add_task_heading">Add Task</string>
+    <string name="edit_text_title">I want to do…</string>
+    <string name="edit_text_desc">…something awesome</string>
+    <string name="edit_fab">edtFab</string>
 </resources>

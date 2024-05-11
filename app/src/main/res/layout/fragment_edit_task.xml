@@ -18,7 +18,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="48dp"
             android:fontFamily="@font/poppins"
-            android:text="Edit Task."
+            android:text="@string/edit_task_heading"
             android:textStyle="bold"
             android:textColor="@color/secondary"
             android:textSize="24sp" />
@@ -27,7 +27,7 @@
             android:id="@+id/editTaskTitle"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:hint="Enter the title"
+            android:hint="@string/edit_text_title"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editTaskHeading"
@@ -40,7 +40,7 @@
             android:id="@+id/editTaskDesc"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Enter the description"
+            android:hint="@string/edit_text_desc"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"
@@ -61,7 +61,7 @@
             android:src="@drawable/baseline_done_24"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
-            android:contentDescription="editFab" />
+            android:contentDescription="@string/edit_fab" />
 
     </RelativeLayout>
 </layout>
