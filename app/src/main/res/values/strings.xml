@@ -5,4 +5,5 @@
     <string name="edit_text_title">I want to do…</string>
     <string name="edit_text_desc">…something awesome</string>
     <string name="edit_fab">edtFab</string>
+    <string name="image">image</string>
 </resources>
