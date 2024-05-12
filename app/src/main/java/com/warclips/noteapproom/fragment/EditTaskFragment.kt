@@ -68,7 +68,6 @@ class EditTaskFragment : Fragment(R.layout.fragment_edit_task), MenuProvider {
             1 -> binding.radioButtonLow.isChecked = true
             2 -> binding.radioButtonMedium.isChecked = true
             3 -> binding.radioButtonHigh.isChecked = true
-            else -> {-1}
         }
 
         binding.editTextDate.setOnClickListener { showDatePicker() }
