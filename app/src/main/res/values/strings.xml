@@ -4,7 +4,15 @@
     <string name="edit_task_heading">Update Task</string>
     <string name="add_task_heading">Add New Task</string>
     <string name="edit_text_title">I want to do…</string>
-    <string name="edit_text_desc">…something awesome</string>
+    <string name="edit_text_desc">…something awesome.</string>
+    <string name="date_time_heading">I need it done by…</string>
+    <string name="radio_heading">And its importance to me is…</string>
+    <string name="deadline">Select Date</string>
+    <string name="time">Select Time</string>
+    <string name="low">Low</string>
+    <string name="mid">Medium</string>
+    <string name="high">High</string>
+    <string name="promise_text">&quot;I promise to do my best to finish this task.&quot;</string>
     <string name="edit_fab">edtFab</string>
     <string name="image">image</string>
 </resources>
