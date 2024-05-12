@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Task Craze</string>
     <string name="home_heading">Your Tasks</string>
-    <string name="edit_task_heading">Edit Task</string>
-    <string name="add_task_heading">Add Task</string>
+    <string name="edit_task_heading">Update Task</string>
+    <string name="add_task_heading">Add New Task</string>
     <string name="edit_text_title">I want to do…</string>
     <string name="edit_text_desc">…something awesome</string>
     <string name="edit_fab">edtFab</string>
