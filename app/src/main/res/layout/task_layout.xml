@@ -24,7 +24,7 @@
                 android:layout_weight="200"
                 android:textColor="@color/secondary"
                 android:fontFamily="@font/poppins"
-                android:text="Task Title"
+                android:text="@string/task_title"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
 
@@ -34,10 +34,50 @@
                 android:id="@+id/taskDescription"
                 android:layout_marginTop="8dp"
                 android:maxHeight="170dp"
-                android:text="Description"
+                android:text="@string/desc"
                 android:textSize="14sp"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/secondary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/taskPriority"
+                android:layout_marginTop="8dp"
+                android:maxHeight="170dp"
+                android:text="@string/priority"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/secondary"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/taskDate"
+                    android:maxHeight="170dp"
+                    android:text="@string/task_date"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/secondary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/taskTime"
+                    android:maxHeight="170dp"
+                    android:text="@string/task_time"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/secondary"/>
+
+                </LinearLayout>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

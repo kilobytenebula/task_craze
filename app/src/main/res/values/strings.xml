@@ -12,6 +12,11 @@
     <string name="low">Low</string>
     <string name="mid">Medium</string>
     <string name="high">High</string>
+    <string name="desc">Description</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_date">Date</string>
+    <string name="task_time">Time</string>
+    <string name="priority">Priority</string>
     <string name="promise_text">&quot;I promise to do my best to finish this task.&quot;</string>
     <string name="edit_fab">edtFab</string>
     <string name="image">image</string>
