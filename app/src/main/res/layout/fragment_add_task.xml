@@ -48,6 +48,5 @@
             android:hint="@string/edit_text_desc"
             android:padding="12dp"
             android:textSize="18sp" />
-
     </RelativeLayout>
 </layout>
